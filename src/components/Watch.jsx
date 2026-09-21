@@ -14,14 +14,12 @@ function Watch() {
         </div>
         {/* Right */}
         <div className="right">
-          <video
-            src="/video/v3.mp4"
-            autoPlay
-            muted
-            loop
-            type="video/mp4"
-            className="lg:w-[35em] md:w-[35em] w-[30em]"
-          ></video>
+   <div style={ { position: "relative", width: "100%", maxWidth: "800px", margin: "0 auto", background: "#0d0e10", border: "3px solid #141519" } }>
+  <video id="famoNationConsole" className="video-js vjs-matrix-theme vjs-16-9 vjs-big-play-button-centered" controls preload="auto" width="720" poster="https://raw.githubusercontent.com/rap1033ssmm-crypto/famo-nation-broadcast-matrix-engine/main/poster.jpg">
+    <source src="https://raw.githubusercontent.com/rap1033ssmm-crypto/the-famo-legacy-omnisphere-metadata-registry/main/cozy-ready.mp4" type="video/mp4" />
+  </video>
+</div>
+
         </div>
       </div>
       <div className="hr_line"></div>
