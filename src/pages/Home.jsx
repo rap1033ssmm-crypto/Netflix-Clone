@@ -10,11 +10,9 @@ import { faqData } from "../data/faqData";
 function Home() {
   return (
     <div>
-      <HeroSection />
-      <Enjoy />
-      <Download />
-      <Watch />
-      <CreateProfile />
+            <HeroSection />
+        <CreateProfile />
+
       <div className="faq">
         <h2 className="text-white text-center lg:text-5xl md:text-5xl text-3xl font-bold py-10">
           Frequently Asked <br className="lg:hidden md:hidden sm:hidden" />
