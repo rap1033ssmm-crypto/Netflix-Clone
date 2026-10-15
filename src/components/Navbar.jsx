@@ -6,13 +6,12 @@ function Navbar() {
       <div className="main flex p-5 lg:mb-28 md:mb-28 mb-10 justify-between lg:justify-around md:justify-around">
         {/* left */}
         <div className="left">
-          <div className="netflix_logo">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1198px-Netflix_2015_logo.svg.png"
-              alt="Netflix_logo"
-              className="lg:w-44 md:w-44 w-28"
-            />
+                 <div className="famo_logo_text">
+            <h1 className="text-[#d4af37] font-extrabold text-2xl lg:text-3xl tracking-wider uppercase font-sans">
+              F-L-O Credentials
+            </h1>
           </div>
+          
         </div>
         {/* Right */}
         <div className="right">
