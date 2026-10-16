@@ -14,44 +14,18 @@ function HeroSection() {
         {/* HeroSection */}
         <div className="hero_section flex mx-auto justify-center items-center h-96">
           <div className="">
-            <h1 className="text-white text-center text-3xl px-5 md:text-5xl lg:text-5xl font-bold mb-5">
-              Unlimited movies, TV shows and more
-            </h1>
-            <p className="text-white text-center lg:text-2xl md:text-2xl text-xl mb-5">
-              Watch anywhere. Cancel anytime.
+                 <h1 className="text-white text-center text-3xl px-5 md:text-5xl lg:text-5xl font-extrabold mb-5 uppercase tracking-wide">
+            F-L-O Credential Verification
+          </h1>
+          <p className="text-white text-center lg:text-2xl md:text-2xl text-xl font-bold mb-5">
+            Famo-Legacy Omnisphere Intelligence Bureau • Node 28
+          </p>
+          <p className="text-[#d4af37] text-center lg:text-xl md:text-xl text-lg font-bold mb-5 tracking-wider">
+            MASTER REGISTRY RECONNAISSANCE CODE: ISSN 3143-9756
+          </p>
+
             </p>
-            <p className="text-white text-center lg:text-xl md:text-xl text-lg mb-5">
-              Ready to watch? Enter your email to
-              <br className="lg:hidden md:hidden sm:hidden" />
-              create or restart your membership
-            </p>
-            <div className="flex flex-wrap justify-center items-center space-x-2">
-              <input
-                type="text"
-                placeholder="Email address"
-                className="bg-[#1d1e1e] text-white text-lg px-3 py-3 lg:w-96 md:w-96 w-80 mb-5 lg:mb-0 md:mb-0 outline-none border border-gray-300 hover:ring-1 hover:ring-gray-50 rounded-lg opacity-80"
-              />
-              <button
-                type="button"
-                className="flex items-center text-white bg-[#e50815] hover:bg-[#d80c1a] rounded-lg px-5 py-3 gap-2 text-xl font-bold "
-              >
-                <p>Get Started</p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-6 h-6 text-white"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                  />
-                </svg>
-              </button>
-            </div>
+          
           </div>
         </div>
       </div>
