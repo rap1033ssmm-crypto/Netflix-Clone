@@ -6,7 +6,7 @@ import Signin from "./pages/registration/Signin";
 function App() {
   return (
     <div>
-      <Router>
+          <Router basename="/Netflix-Clone">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/signin" element={<Signin />} />
